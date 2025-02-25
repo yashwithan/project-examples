@@ -70,11 +70,4 @@
             </plugin>
         </plugins>
     </build>
-    <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>ganeshrajam-testbench-releases</name>
-        <url>http://support-team-ganeshrajam-testbench.jfrog.farm:80/artifactory/maven-libs-release-local</url>
-    </repository>
-</distributionManagement>
 </project>
