@@ -73,8 +73,13 @@
     <distributionManagement>
     <repository>
         <id>central</id>
-        <name>ganeshrajam-testbench-releases</name>
-        <url>http://support-team-ganeshrajam-testbench.jfrog.farm:80/artifactory/maven-libs-release-local</url>
+        <name>ganeshrajam-nginx-releases</name>
+        <url>http://support-team-ganeshrajam-testbench.jfrog.farm:80/artifactory/pipeline-virtual</url>
     </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ganeshrajam-nginx-snapshots</name>
+        <url>http://support-team-ganeshrajam-testbench.jfrog.farm:80/artifactory/pipeline-virtual</url>
+    </snapshotRepository>
 </distributionManagement>
 </project>
