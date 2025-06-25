@@ -74,12 +74,12 @@
     <repository>
         <id>central</id>
         <name>testmvn-libs-release</name>
-        <url>http://support-team-rajanvm66.jfrog.farm:80/artifactory/pipeline-virtual</url>
+        <url>http://support-team-rajanvm66.jfrog.farm:80/artifactory/testmvn-libs-release</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>testmvn-libs-snapshot-</name>
-        <url>http://support-team-rajanvm66.jfrog.farm:80/artifactory/pipeline-virtual</url>
+        <url>http://support-team-rajanvm66.jfrog.farm:80/artifactory/testmvn-libs-snapshot</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
