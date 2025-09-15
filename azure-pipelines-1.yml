@@ -21,7 +21,7 @@ steps:
     jfrogPlatformConnection: new
     # workingDirectory: 'c:/Program Files (x86)/WiX Toolset v3.11/bin'
     command: |
-      jf dotnetc --repo-resolve=${{ parameters.remote_repository_private }}
-      jf dotnet restore GatewaySetup\Gateway.sln --build-name="IConnectGW-Build" --build-number=${{ parameters.build_number }} --project ${{ parameters.projectkey }} --module=dotnet
+      jf dotnetc --repo-resolve=nagu-nuget
+      jf dotnet restore GatewaySetup\Gateway.sln --build-name="IConnectGW-Build" --build-number=1 --project hi --module=dotnet
 
 
